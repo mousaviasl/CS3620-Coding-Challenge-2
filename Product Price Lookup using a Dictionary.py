@@ -9,6 +9,6 @@ def get_product_price(product_name):
     
     return products.get(product_name.lower(), "Product not found.")
 
-# Example usage
+
 product = input("Enter the product name: ")
 print(f"The price of {product} is: ${get_product_price(product)}")
